@@ -2,4 +2,5 @@
 
 Leveraging Microservice architecture and Redis to maximise efficiency 
 
-(Still in Progress)
+Backend Completed
+Frontend is close to wrapping up
