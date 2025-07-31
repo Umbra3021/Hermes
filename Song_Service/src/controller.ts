@@ -120,7 +120,8 @@ export const allAlbumSongs = TryCatch(async (req, res) => {
 });
 
 export const SingleSong = TryCatch(async (req, res) => {
+    console.log("Single song route hit");
     const song = await sql`SELECT * FROM songs WHERE id = ${req.params.id}`;
 
-    res.json(song);
+    res.json(song[0]);
 })  
